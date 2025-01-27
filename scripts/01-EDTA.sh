@@ -25,3 +25,4 @@ apptainer exec -C --bind /data -H ${pwd}:/work \
  --cds $CDS \
  --anno 1 \
  --threads 20
+ 
