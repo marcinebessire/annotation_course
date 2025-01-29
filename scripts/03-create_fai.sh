@@ -13,7 +13,7 @@ module load SAMtools/1.13-GCC-10.3.0
 cd /data/users/mbessire/annotation_course/assembly
 
 # Path to your assembly FASTA file
-FASTA_FILE="/data/users/mbessire/annotation_course/assembly/assembly_lja.fasta"
+FASTA_FILE="/data/users/mbessire/annotation_course/assembly/assembly_lja_renamed.fasta"
 
 # Generate the .fai index
 samtools faidx $FASTA_FILE
